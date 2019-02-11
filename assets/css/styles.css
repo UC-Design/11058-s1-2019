@@ -1,0 +1,31 @@
+@import url(../../lib/reveal/lib/font/source-sans-pro/source-sans-pro.css);
+@import url(normalize.css);
+body {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: normal;
+    color: #222;
+    margin: 20px;
+}
+
+header {
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1,
+header h2 {
+    display: inline;
+    font-size: 1em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    color: #a6a6a6;
+}
+
+header h1 {}
+
+header h2 {
+    float: right;
+}

@@ -4,8 +4,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem "jekyll", "~> 3.8"
+gem "jekyll", "~> 3.7.4"
 
+gem "github-pages", group: :jekyll_plugins
 
 #theme
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll-theme-cayman"

@@ -1,5 +1,4 @@
 "clang -o conftest -I/usr/local/Cellar/ruby/2.3.1/include/ruby-2.3.0/x86_64-darwin15 -I/usr/local/Cellar/ruby/2.3.1/include/ruby-2.3.0/ruby/backward -I/usr/local/Cellar/ruby/2.3.1/include/ruby-2.3.0 -I.  -I/usr/local/opt/libyaml/include -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration -Wdivision-by-zero -Wdeprecated-declarations -Wextra-tokens  -fno-common -pipe conftest.c  -L. -L/usr/local/Cellar/ruby/2.3.1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib -L. -fstack-protector -L/usr/local/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/openssl/lib -L/usr/local/opt/readline/lib     -lruby.2.3.0  -lpthread -ldl -lobjc "
-xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -10,4 +9,3 @@ checked program was:
 6: }
 /* end */
 
-package configuration for openssl is not found

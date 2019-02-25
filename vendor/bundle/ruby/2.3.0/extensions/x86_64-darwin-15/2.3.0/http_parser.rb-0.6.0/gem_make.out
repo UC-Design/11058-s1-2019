@@ -1,0 +1,16 @@
+current directory: /Users/s425308/Dropbox/GITHUB/11058-back-end/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20190226-93706-af863l.rb extconf.rb
+creating Makefile
+
+current directory: /Users/s425308/Dropbox/GITHUB/11058-back-end/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/s425308/Dropbox/GITHUB/11058-back-end/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ryah_http_parser.c
+compiling ruby_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/s425308/Dropbox/GITHUB/11058-back-end/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20190226-93706-1lti2gg

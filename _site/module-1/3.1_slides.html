@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Back-end Web Development</title>
+
+    <link rel="stylesheet" href="../lib/reveal/css/reveal.css">
+    <link rel="stylesheet" href="../lib/reveal/css/theme/ben-default.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../lib/reveal/css/print/pdf.css' : '../lib/reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+
+    </script>
+</head>
+
+<body>
+    <div class="branding">
+        <h1>Back-end Web Development </h1>
+        <h2>Module 1</h2> </div>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <textarea data-template>
+Back-end Web Development
+======
+
+## Week 3 Workshop
+
+### Dr Ben Ennis Butler
+
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+# Welcome
+## Today's workshop
+
+- Server-side languages
+- Local development
+- Getting into it
+
+
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+                <h3>Server-side languages</h3>
+        <ul>
+            <li>There are many! Two of the most common are php and Node.js. Others include: C# and VB.Net (Microsoft); Java (different to javascript), Python, Ruby.
+            </li>
+            <li>Which one you use depends on what you are building. Instagram was built in Python, many search systems are built with Java. Wordpress and Facebook built with php. Most common ‘progressive’ languages are PHP and Node.
+            </li>
+        </ul> 
+                
+</textarea>
+            </section>
+
+
+            <section data-markdown>
+                <textarea data-template>
+    <h3>PHP</h3>
+        <ul>
+            <li>Hypertext preprocessor</li>
+            <li>Originally stood for Personal Home Page</li>
+            <li>Created in 1993. Open source (free).</li>
+            <li>Popular, good for many different purposes. Relatively easy to learn/get started with. </li>
+            <li>Code is executed on the server and results are returned to browser as plain html (and css). </li>
+
+        </ul>
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    <h3>Node.js</h3>
+        <ul>
+            <li>(JS! what?!) </li>
+            <li>Created in 2009. Open source (free).</li>
+            <li>Allows developers to write JS which is executed outside the browser. </li>
+            <li>JS is nice - Node unifies the development/design around a single language </li>
+            <li>JS files can be run through a CLI</li>
+        </ul>
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    <h3>CLI</h3>
+        <ul>
+            <li>Command Line Interface</li>
+            <li>Anyone remember the old DOS/terminal style interaction? This is that</li>
+            <li>Everyone can run a CLI from their computer</li>
+            <li>You can connect to server through a CLI and run tasks</li>
+        </ul>
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    <h3>Workspace implications</h3>
+        <ul>
+            <li>Local or remote development?</li>
+        </ul>
+        <li>Easier to develop locally as you can test everything quickly and easily</li>
+        <li>Ultimately will need to transfer content to server - lots of ways of doing that:
+            <ul>
+                <li>Main files with File Transfer Protocol (FTP)</li>
+                <li>Any databases will need to be recreated online</li>
+                <li>Pull from GitHub</li>
+            </ul>
+
+        </li>
+        <li>We won’t cover all of this just yet, but good to be aware of for later</li>
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    <h3>Local development</h3>
+
+        <p>In order to develop your server-side code locally you need to create a server on your own computer. </p>
+        <p>Luckily this is easy to do!</p>
+
+        <p>Download and install <a hef="https://www.mamp.info/en/">MAMP</a> (free version for mac and pc) <br> (We don’t need MAMP Pro)</p>
+
+        <p>When you install MAMP make sure you make note of the document root</p>
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    ### If MAMP doesn't work
+    
+    open terminal:
+
+    `sudo su -`
+
+    `apachectl start`
+    
+    Then try http://localhost/
+    
+    Web server root is generally ~/Library/WebServer/Documents/
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    End of Slides. Follow along with detailed notes on GitHub. 
+</textarea>
+            </section>
+
+            <!--
+<section data-markdown>
+<textarea data-template>
+
+</textarea>
+</section>
+-->
+
+        </div>
+    </div>
+
+    <script src="../lib/reveal/lib/js/head.min.js"></script>
+    <script src="../lib/reveal/js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            dependencies: [{
+                src: '../lib/reveal/plugin/markdown/marked.js'
+            }, {
+                src: '../lib/reveal/plugin/markdown/markdown.js'
+            }, {
+                src: '../lib/reveal/plugin/notes/notes.js',
+                async: true
+            }, {
+                //for code highlighting
+                src: '../lib/reveal/plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+
+        // Shows the slide number using default formatting
+        Reveal.configure({
+            slideNumber: 'c/t'
+        });
+
+    </script>
+</body>
+
+</html>

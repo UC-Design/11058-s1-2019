@@ -4,6 +4,6 @@
 
 _Workshops are not recorded_
 
-*   [Week 2](module-1/2.md)
-*   [Week 3](module-1/3.md)
-*   [Week 4](module-1/4.md)
+*   [Week 2](2.md)
+*   [Week 3](3.md)
+*   [Week 4](4.md)

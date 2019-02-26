@@ -14,9 +14,9 @@ Please make sure you refer to Canvas for further information
 *   Lecture recording available on Canvas
 
 ## Modules
-- Module 1: [Server-side technology and Languages](module-1/readme.md)
-- Module 2: [Databases and Frameworks](module-2/readme.md)
-- Module 3: [Content Management Systems](module-3/readme.md)
+- Module 1: [Server-side technology and Languages](module-1/)
+- Module 2: [Databases and Frameworks](module-2/)
+- Module 3: [Content Management Systems](module-3/)
 
 ### Resources
 Canvas login available [here](http://uclearn.canberra.edu.au)

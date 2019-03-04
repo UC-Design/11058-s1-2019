@@ -3,4 +3,8 @@
 
 _Workshops are not recorded_
 
-Content will be available closer to the date
+*   [Week 9](9.md)
+*   [Week 10](10.md)
+*   Week 11 - Project work and trouble shooting
+*   Week 12 - Project work and trouble shooting
+*   Week 13 - Project presentations

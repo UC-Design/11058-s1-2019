@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Back-end Web Development</title>
+
+    <link rel="stylesheet" href="../lib/reveal/css/reveal.css">
+    <link rel="stylesheet" href="../lib/reveal/css/theme/ben-default.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../lib/reveal/css/print/pdf.css' : '../lib/reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+
+    </script>
+</head>
+
+<body>
+    <div class="branding">
+        <h1>Back-end Web Development </h1>
+        <h2>Module 1</h2> </div>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+                <textarea data-template>
+Back-end Web Development
+======
+
+## Week 4 Workshop
+
+### Dr Ben Ennis Butler
+
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+# Welcome
+## Today's workshop
+-   Databases!
+
+
+</textarea>
+            </section>
+            <section data-markdown>
+                <textarea data-template>
+## What are they?
+*   We keep mentioning databases, but what actually are they?
+*   Well, in its basic form it is a structured set of data held in a computer system. They can be simple, and really, really complex. There are a two main types of database models: relational and non-relational databases.  
+</textarea>
+            </section>
+            <section data-markdown>
+                <textarea data-template>
+## Relational databases
+*   Dominant in 80s 
+*   Very popular
+*   Data is stored in rows and columns in a table 
+*   Can be a bit slow as multiple lookups are made
+*   E.g. need to retrieve data from multiple tables to show information
+*   Access with SQL (structured Query Language) 
+*   SQL designed specifically for accessing data in relational databases
+
+</textarea>
+            </section>
+            <section data-markdown>
+                <textarea data-template>
+#### Non-relational databases
+*   Emerged 2000s 
+*   Often referred to as NoSQL
+*   Developed in response to demands of modern web apps
+*   Key strength is speed: they are very fast
+*   Number of different database types: document databases, graph stores, key-value stores and wide-column stores. 
+
+</textarea>
+            </section>
+            <section data-markdown>
+                <textarea data-template>
+                    ## Creating our web app
+* We are going to use MySQL to create a CRUD web application - the code we write here will be used for the first assignment. 
+*  CRUD stands for Create, Read, Update and Delete
+                    
+
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+        ## Work it out first!
+    
+    The **most important** thing is to work out what data you want to collect **FIRST**, as generally, you’d only set up the database once, and so you want to make sure it is right. 
+
+</textarea>
+            </section>
+
+            <section data-markdown>
+                <textarea data-template>
+    ## My demo
+I’ll be creating a simple app to keep track of artworks in a users collection. In this case I’ve thought about what kind of information I need to gather:
+
+* Artist name
+* Work title
+* Work date
+* Work type (e.g. painting, sculpture, print)
+</textarea>
+            </section>
+
+
+            <section data-markdown>
+                <textarea data-template>
+End of Slides. Follow along with detailed notes on GitHub. 
+</textarea>
+            </section>
+
+            <!--
+<section data-markdown>
+<textarea data-template>
+
+</textarea>
+</section>
+-->
+
+        </div>
+    </div>
+
+    <script src="../lib/reveal/lib/js/head.min.js"></script>
+    <script src="../lib/reveal/js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            dependencies: [{
+                src: '../lib/reveal/plugin/markdown/marked.js'
+            }, {
+                src: '../lib/reveal/plugin/markdown/markdown.js'
+            }, {
+                src: '../lib/reveal/plugin/notes/notes.js',
+                async: true
+            }, {
+                //for code highlighting
+                src: '../lib/reveal/plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }]
+        });
+
+        // Shows the slide number using default formatting
+        Reveal.configure({
+            slideNumber: 'c/t'
+        });
+
+    </script>
+</body>
+
+</html>

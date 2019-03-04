@@ -3,4 +3,7 @@
 
 _Workshops are not recorded_
 
-Content will be available closer to the date.
+*   [Week 4](4.md)
+*   [Week 5](5.md)
+*   [Week 6](6.md)
+*   Week 7: project work

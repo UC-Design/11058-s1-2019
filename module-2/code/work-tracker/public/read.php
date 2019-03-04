@@ -52,9 +52,9 @@ if (isset($_POST['submit'])) {
     <?php echo $row['worktype']; ?><br>
 </p>
 <?php 
-                            // this willoutput all the data from the array
-                            //echo '<pre>'; var_dump($row); 
-                        ?>
+            // this willoutput all the data from the array
+            //echo '<pre>'; var_dump($row); 
+        ?>
 
 <hr>
 <?php }; //close the foreach

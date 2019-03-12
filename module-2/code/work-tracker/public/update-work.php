@@ -94,19 +94,19 @@
     <input type="text" name="id" id="id" value="<?php echo escape($work['id']); ?>" >
     
     <label for="artistname">Artist Name</label>
-    <input type="text" name="artistname" id="artistname" value="<?php echo $work['artistname']; ?>">
+    <input type="text" name="artistname" id="artistname" value="<?php echo escape($work['artistname']); ?>">
 
     <label for="worktitle">Work Title</label>
-    <input type="text" name="worktitle" id="worktitle" value="<?php echo $work['worktitle']; ?>">
+    <input type="text" name="worktitle" id="worktitle" value="<?php echo escape($work['worktitle']); ?>">
 
     <label for="workdate">Work Date</label>
-    <input type="text" name="workdate" id="workdate" value="<?php echo $work['workdate']; ?>">
+    <input type="text" name="workdate" id="workdate" value="<?php echo escape($work['workdate']); ?>">
 
     <label for="worktype">Work Type</label>
-    <input type="text" name="worktype" id="worktype" value="<?php echo $work['worktype']; ?>">
+    <input type="text" name="worktype" id="worktype" value="<?php echo escape($work['worktype']); ?>">
     
     <label for="date">Work Date</label>
-    <input type="text" name="date" id="date" value="<?php echo $work['date']; ?>">
+    <input type="text" name="date" id="date" value="<?php echo escape($work['date']); ?>">
 
     <input type="submit" name="submit" value="Save">
 

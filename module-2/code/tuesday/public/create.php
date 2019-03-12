@@ -1,4 +1,5 @@
 <?php 
+
 // this code will only execute after the submit button is clicked
 if (isset($_POST['submit'])) {
 	
@@ -24,7 +25,7 @@ if (isset($_POST['submit'])) {
         // FOURTH: Now write the SQL to the database
         $statement = $connection->prepare($sql);
         $statement->execute($new_work);
-        
+
 	} catch(PDOException $error) {
         // if there is an error, tell us what it is
 		echo $sql . "<br>" . $error->getMessage();
@@ -32,7 +33,8 @@ if (isset($_POST['submit'])) {
 }
 ?>
 
-<?php include "templates/header.php"?>
+
+<?php include "templates/header.php"; ?>
 
 <h2>Add a work</h2>
 
@@ -40,7 +42,7 @@ if (isset($_POST['submit'])) {
 <p>Work successfully added.</p>
 <?php } ?>
 
-
+<!--form to collect data for each artwork-->
 
 <form method="post">
     <label for="artistname">Artist Name</label>
@@ -59,6 +61,4 @@ if (isset($_POST['submit'])) {
 
 </form>
 
-
-
-<?php include "templates/footer.php"?>
+<?php include "templates/footer.php"; ?>

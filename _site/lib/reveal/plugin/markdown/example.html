@@ -1,136 +1,80 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang=" en-US ">
 
-	<head>
-		<meta charset="utf-8">
+<head>
 
-		<title>reveal.js - Markdown Demo</title>
+    
+    <meta charset="UTF-8"> <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Markdown Demo | Back-end Web Development</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Markdown Demo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Unit content for 11058, Back-end Web Development" />
+<meta property="og:description" content="Unit content for 11058, Back-end Web Development" />
+<link rel="canonical" href="http://localhost:4000/lib/reveal/plugin/markdown/example.html" />
+<meta property="og:url" content="http://localhost:4000/lib/reveal/plugin/markdown/example.html" />
+<meta property="og:site_name" content="Back-end Web Development" />
+<script type="application/ld+json">
+{"description":"Unit content for 11058, Back-end Web Development","@type":"WebPage","url":"http://localhost:4000/lib/reveal/plugin/markdown/example.html","headline":"Markdown Demo","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-		<link rel="stylesheet" href="../../css/reveal.css">
-		<link rel="stylesheet" href="../../css/theme/white.css" id="theme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=7fd9449a5b3f739fa365f06408305e91ff4251a0">
+</head>
 
-        <link rel="stylesheet" href="../../lib/css/zenburn.css">
-	</head>
+<body>
+    <!--    <a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
-	<body>
+    <header class="page-header" role="banner">
+        <h1 class="project-name">Back-end Web Development</h1>
+        <!--        hardcoding the title because it just won't set it from the config-->
+        <!--        <h1 class="project-name">Markdown Demo</h1>-->
+        <h2 class="project-tagline">Unit content for 11058, Back-end Web Development</h2> 
+        <a href="" class="btn">Home</a>
+        <a href="/module-1" class="btn">Module 1</a>
+        <a href="/module-2" class="btn">Module 2</a>
+        <a href="/module-3" class="btn">Module 3</a>
 
-		<div class="reveal">
+    </header>
 
-			<div class="slides">
+    <main id="content" class="main-content" role="main">
+        <h1 id="markdown-demo">Markdown Demo</h1>
 
-                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-                <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+<h2 id="external-11">External 1.1</h2>
 
-                <!-- Slides are separated by three dashes (quick 'n dirty regular expression) -->
-                <section data-markdown data-separator="---">
-                    <script type="text/template">
-                        ## Demo 1
-                        Slide 1
-                        ---
-                        ## Demo 1
-                        Slide 2
-                        ---
-                        ## Demo 1
-                        Slide 3
-                    </script>
-                </section>
+<p>Content 1.1</p>
 
-                <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
-                <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-                    <script type="text/template">
-                        ## Demo 2
-                        Slide 1.1
+<p>Note: This will only appear in the speaker notes window.</p>
 
-                        --
+<h2 id="external-12">External 1.2</h2>
 
-                        ## Demo 2
-                        Slide 1.2
+<p>Content 1.2</p>
 
-                        ---
+<h2 id="external-2">External 2</h2>
 
-                        ## Demo 2
-                        Slide 2
-                    </script>
-                </section>
+<p>Content 2.1</p>
 
-                <!-- No "extra" slides, since there are no separators defined (so they'll become horizontal rulers) -->
-                <section data-markdown>
-                    <script type="text/template">
-                        A
+<h2 id="external-31">External 3.1</h2>
 
-                        ---
+<p>Content 3.1</p>
 
-                        B
+<h2 id="external-32">External 3.2</h2>
 
-                        ---
+<p>Content 3.2</p>
 
-                        C
-                    </script>
-                </section>
+<h2 id="external-33">External 3.3</h2>
 
-                <!-- Slide attributes -->
-                <section data-markdown>
-                    <script type="text/template">
-                        <!-- .slide: data-background="#000000" -->
-                        ## Slide attributes
-                    </script>
-                </section>
+<p><img src="https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png" alt="External Image" /></p>
 
-                <!-- Element attributes -->
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Element attributes
-                        - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-                        - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
-                    </script>
-                </section>
 
-                <!-- Code -->
-                <section data-markdown>
-                    <script type="text/template">
-                        ```php
-                        public function foo()
-                        {
-                            $foo = array(
-                                'bar' => 'bar'
-                            )
-                        }
-                        ```
-                    </script>
-                </section>
+        <footer class="site-footer">
+            
+            <span class="site-footer-owner"><a href="https://github.com/UC-Design/11058-back-end">11058-back-end</a> is maintained by <a href="https://github.com/UC-Design">UC-Design</a>.</span> 
+            <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        </footer>
+    </main>
+</body>
 
-                <!-- Images -->
-                <section data-markdown>
-                    <script type="text/template">
-                        ![Sample image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
-                    </script>
-                </section>
-
-            </div>
-		</div>
-
-		<script src="../../lib/js/head.min.js"></script>
-		<script src="../../js/reveal.js"></script>
-
-		<script>
-
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-					{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '../notes/notes.js' }
-				]
-			});
-
-		</script>
-
-	</body>
 </html>

@@ -8,7 +8,7 @@ _Workshops are not recorded_
 *   [Week 6](6.md)
 *   Week 7: project work
 
-*   [Making your web app avaialble online](7.md)
+*   [Making your web app available online](7.md)
 
 
 ## Software you will need

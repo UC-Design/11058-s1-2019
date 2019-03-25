@@ -36,29 +36,56 @@ if (isset($_POST['submit'])) {
 
 <?php include "templates/header.php"; ?>
 
-<h2>Add a work</h2>
+<div class="container">
+    <div class="row">
 
-<?php if (isset($_POST['submit']) && $statement) { ?>
-<p>Work successfully added.</p>
-<?php } ?>
+        <h2>Add a work</h2>
 
-<!--form to collect data for each artwork-->
+        <?php if (isset($_POST['submit']) && $statement) { ?>
+        <p class="success">Work successfully added.</p>
+        <?php } ?>
 
-<form method="post">
-    <label for="artistname">Artist Name</label>
-    <input type="text" name="artistname" id="artistname">
+    </div>
 
-    <label for="worktitle">Work Title</label>
-    <input type="text" name="worktitle" id="worktitle">
+    <!--form to collect data for each artwork-->
 
-    <label for="workdate">Work Date</label>
-    <input type="text" name="workdate" id="workdate">
+    <form method="post">
 
-    <label for="worktype">Work Type</label>
-    <input type="text" name="worktype" id="worktype">
+        <div class="row">
+            <div class="eight columns">
+                <label for="artistname">Artist Name</label>
+                <input type="text" name="artistname" id="artistname" class="u-full-width">
+            </div>
+        </div>
 
-    <input type="submit" name="submit" value="Submit">
+        <div class="row">
+            <div class="eight columns">
+                <label for="worktitle">Work Title</label>
+                <input type="text" name="worktitle" id="worktitle" class="u-full-width">
+            </div>
+        </div>
 
-</form>
+        <div class="row">
+            <div class="eight columns">
+                <div class="row">
+                    <div class="six columns">
+                        <label for="workdate">Work Date</label>
+                        <input type="text" name="workdate" id="workdate" class="u-full-width">
+                    </div>
+                    <div class="six columns">
+                        <label for="worktype">Work Type</label>
+                        <input type="text" name="worktype" id="worktype" class="u-full-width">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" name="submit" value="Submit" class="button-primary">
+            <input type="clear" name="clear" value="Clear fields" class="button">
+        </div>
+    </form>
+
+</div>
 
 <?php include "templates/footer.php"; ?>

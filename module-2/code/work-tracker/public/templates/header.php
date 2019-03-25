@@ -1,19 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <title>Ben's Collection</title>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
+    <title>Ben's collection tracker</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
 
 <body>
-    <h1>Ben's Collection tracker</h1>
-    <ul>
-        <li><a href="create.php">Add a new artwork</a></li>
-        <li><a href="read.php">Find an artwork</a></li>
-        <li><a href="update.php">Update an artwork</a></li>
-        <li><a href="delete.php">Delete an artwork</a></li>
-    </ul>
+    <header>
+        <div class="container">
+            <h1>Ben's Collection tracker</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="create.php">Add a new work</a></li>
+                    <li><a href="read.php">List works</a></li>
+                    <li><a href="update.php">Update a work</a></li>
+                    <li><a href="delete.php">Delete a work</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>

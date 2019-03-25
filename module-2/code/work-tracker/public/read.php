@@ -1,8 +1,11 @@
 <?php 
 
 // this code will only execute after the submit button is clicked
-if (isset($_POST['submit'])) {
+//if (isset($_POST['submit'])) {
 	
+
+//Just disaply all the data awhen you view the page
+
     // include the config file that we created before
     require "../config.php"; 
     
@@ -25,46 +28,58 @@ if (isset($_POST['submit'])) {
         // if there is an error, tell us what it is
 		echo $sql . "<br>" . $error->getMessage();
 	}	
-}
+//}
 ?>
 
 <?php include "templates/header.php"; ?>
 
-<?php  
-    if (isset($_POST['submit'])) {
-        //if there are some results
-        if ($result && $statement->rowCount() > 0) { ?>
-<h2>Results</h2>
+<div class="container">
+    <div class="row">
 
-<!-- This is a loop, which will loop through each result in the array -->
-<?php foreach($result as $row) { ?>
+        <h2>All works</h2>
 
-<p>
-    ID:
-    <?php echo $row['id']; ?><br> Artist Name:
-    <?php echo $row['artistname']; ?><br> Work Title:
-    <?php echo $row['worktitle']; ?><br> Work Date:
-    <?php echo $row['workdate']; ?><br> Work type:
-    <?php echo $row['worktype']; ?><br>
-</p>
-<?php 
-            // this willoutput all the data from the array
-            //echo '<pre>'; var_dump($row); 
-        ?>
+    </div>
 
-<hr>
-<?php }; //close the foreach
-        }; 
-    }; 
-?>
+    <div class="row allworks">
 
+        <!-- This is a loop, which will loop through each result in the array -->
+        <?php foreach($result as $row) { ?>
 
+        <div class="six columns">
+            <div class="inner">
+                <h6 class="title">Artist Name</h6>
+                <h2><?php echo $row['artistname']; ?></h2>
 
-<form method="post">
+                <h6 class="title">Work title</h6>
+                <p>
+                    <?php echo $row['worktitle']; ?>
+                </p>
 
-    <input type="submit" name="submit" value="View all">
+                <h6 class="title">Work Date and type</h6>
+                <p>
+                    <?php echo $row['workdate']; ?> &middot;
+                    <?php echo $row['worktype']; ?>
+                </p>
 
-</form>
+                <h6 class="title">ID</h6>
+                <p>
+                    <?php echo $row['id']; ?>
+                </p>
 
 
+
+                <?php // this willoutput all the data from the array
+            //echo '<pre>'; var_dump($row); ?>
+
+            </div>
+
+        </div>
+
+        <?php }; //close the foreach ?>
+
+    </div>
+
+
+
+</div>
 <?php include "templates/footer.php"; ?>

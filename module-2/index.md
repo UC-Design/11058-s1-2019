@@ -15,6 +15,7 @@ _Workshops are not recorded_
 -   A code editor. Anything you like, I'll use [Brackets](http://brackets.io) in class. Free for both PC and Mac
 -   [GitHub Desktop](https://desktop.github.com). Free for both Mac and PC. You need to create a GitHub account first. 
 -   A local server. Use [MAMP](https://www.mamp.info). Free for both Mac and PC.
+-   An FTP Program. Use [Filezilla](https://filezilla-project.org) (free for all platforms).
 
 ## What do I need to know?
 We assume you've already done, or are completing 11054 (front-end web design), at the same time. If not, you'll need to know:

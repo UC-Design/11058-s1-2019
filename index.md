@@ -21,6 +21,10 @@ Week 1 lecture provides an introduction to the unit. Make sure you watch it and 
 - Module 2: [Databases and Frameworks](module-2/)
 - Module 3: [Content Management Systems](module-3/)
 
+## Assessment
+*   [Project 2 information](assessment/index.md)
+*   [Scrum information](https://uc-design.github.io/scrum/)
+
 ## Software you will need
 
 -   A code editor. Anything you like, I'll use [Brackets](http://brackets.io) in class. Free for both PC and Mac
@@ -37,7 +41,7 @@ We assume you've already done, or are completing 11054, at the same time. If not
 ## Resources
 
 ### Canvas
--   Canvas login: [http://uclearn.canberra.edu.au)](http://uclearn.canberra.edu.au)
+-   Canvas login: [http://uclearn.canberra.edu.au](http://uclearn.canberra.edu.au)
 
 ### Links
 -   Slides created with [RevealJS](https://github.com/hakimel/reveal.js)

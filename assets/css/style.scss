@@ -1,5 +1,12 @@
-@import url(../../lib/reveal/lib/font/source-sans-pro/source-sans-pro.css);
-@import url(normalize.css);
+---
+---
+
+@import "{{ site.theme }}";
+
+/*@import url(normalize.css);*/
+
+
+/*
 body {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: normal;
@@ -28,4 +35,13 @@ header h1 {}
 
 header h2 {
     float: right;
+}*/
+
+.page-header {
+    background: #c94b4b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

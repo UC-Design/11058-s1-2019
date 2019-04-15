@@ -66,7 +66,7 @@ Make text in square brackets a link to this page: http://www.canberrahouse.com.a
 
 ## Source Content
 
-Available here: [Mid-Century Canberra](content/mid-century-canberra/)
+Available here: [Mid-Century Canberra](https://github.com/UC-Design/11058-back-end/tree/master/assessment/project-2/content/mid-century-canberra)
 
 <hr>
 Back to the [main project page](../index.md)

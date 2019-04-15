@@ -73,7 +73,7 @@ The content is extracted from the Tocumwal Houses Archive in the [ACT Heritage L
 Make text in square brackets a link to this page: https://www.library.act.gov.au/find/history/search/Manuscript_Collections/hmss_0074_tocumwal_houses_archive
 ```
 ## Source Content
-Available here: [The Tocumwal Archive](content/the-tocumwal-archive/)
+Available here: [The Tocumwal Archive](https://github.com/UC-Design/11058-back-end/tree/master/assessment/project-2/content/the-tocumwal-archive)
 
 
 <hr>

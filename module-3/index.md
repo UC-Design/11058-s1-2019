@@ -35,6 +35,9 @@ Everyone has a different workflow, you mgiht find it interesting to read a few a
 *   
 If you create your own great workflow then let us all know in the discussion forum!
 
+### Better hosting
+SiteGround has come through with the goods, if you sign up using your UC student email address, you can get proper free hosting (with less weird-ness): [SiteGround](https://www.siteground.com/students/). Highly recommend. 
+
 ### Assessment information 
 
 Got to the [Project 2](../assessment/index.md) page to see the project briefs and access the source content. 
